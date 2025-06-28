@@ -78,7 +78,7 @@ def split_dataset_test(target):
     expected = {'left': np.array([1, 3, 6]),
                 'right': np.array([2, 7, 9, 10])}
 
-    assert np.allclose(right, expected['right']) and np.allclose(left, expected['left']), f"Wrong value when target is at index 0. \nExpected: {expected} \ngot: \{left:{left}, 'right': {right}\}"
+    assert np.allclose(right, expected['right']) and np.allclose(left, expected['left']), f"Wrong value when target is at index 0. \nExpected: {expected} \ngot: \\{left:{left}, 'right': {right}\}"
  
     
     print("\033[92m All tests passed.")
